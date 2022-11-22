@@ -1,0 +1,89 @@
+@media screen and (max-width: 640px) {
+    body { background: white;
+        overflow: hidden; 
+    }
+    }
+ 
+.title{
+grid-area: header;
+height: 40px;
+background: #167da0;
+border-radius: 5px 5px 0 0;
+color: #fff;
+
+
+}
+.title1{
+grid-area: main;
+background-color:  #0c627e;
+    color: white;
+}
+.title11{
+grid-area: sidbar;
+background-color:  #0c627e;
+    color: white;
+}
+
+.container1{
+    grid-area: img;
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    
+}
+.description{
+    
+    grid-area: descr;
+    margin-left: 10px;
+}
+ .price{
+    grid-area: price;
+    margin-top: 135px;
+    margin-left: 55px;
+}
+.description2{
+    
+    grid-area: descr2;
+    margin-left: 10px;
+}
+ .price2{
+    grid-area: price2;
+    margin-top: 135px;
+    margin-left: 55px;
+}
+.container2{
+    grid-area: img1;
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    
+    
+}
+.container3{
+    display: flex;
+background-color: antiquewhite;
+}
+.footer{
+    background: #167da0;
+    grid-area: footer;
+   margin-top: 90px;
+   color: #fff;
+}
+.wrapper{
+    
+    display: grid;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 500px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header"
+                         "main main sidbar sidbar"
+                         "img . descr price" 
+                         "img1 . descr2 price2"
+                         "footer footer footer footer";
+}
+
+
+
